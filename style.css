@@ -59,10 +59,10 @@ body, html{
 
 /*Main Page Logo*/
 .logo {
-	height: 15%;
+	height: 50%;
 	width: 55%;
 	display: block;
-	margin: 10% auto 20%;
+	margin: 15% auto 20%;
 	padding: 0 auto 20px;
 	border-radius: 200px;
 	transform: translate(0, 0); scale: 1.65;
@@ -218,7 +218,7 @@ footer a{
 	
 	text-align: center;
 	display: block;
-	transform: translateY(10px) translateX(-450px);
+	transform: translateY(10px) translateX(-45%);
 
 }
 
