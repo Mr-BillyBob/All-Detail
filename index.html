@@ -9,7 +9,7 @@
 	<link rel="icon" type="image/png" href="Images/Favicon2.png"/>
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<meta name= "viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <!-- Top Navigation Bar -->
@@ -20,16 +20,19 @@
 			<a href="contact.html">Contact</a>
 			<a href="about.html">About</a>
 			<div class="topnavlogo">
-				<a href="index.html"> <img src="Images/Favicon2.png" alt="logo"></a>
+				<a class="topnavlogo" href="index.html"> <img src="Images/Favicon2.png" alt="logo"></a>
 			</div>
 			
 		</div>
 </header>
 
 <body>
-	
-		<img class="logo" src="Images/logo14.png">
+		
 
+	<div class="sb">
+		<img class="logo" src="Images/logo14.png">
+		<a href="Services.html"><button>Services</button></a>
+	</div>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -109,7 +112,7 @@ function showSlides(n) {
 			<input type="text" id="name" placeholder="Last Name" requried>
 			<input type="text" id="phone" placeholder="Phone Number" requried>
 			<input type="text" id="email" placeholder="Email">
-			<textarea id="message" rows="5" placeholder="Requested Services"></textarea>
+			<textarea id="message" rows="5" placeholder="Questions"></textarea>
 			<button type="submit">Submit</button>
 		</form>
 	</div>
@@ -119,7 +122,10 @@ function showSlides(n) {
 </body>
 
 <footer class="footer">
-	<p><a href="index.html">Home</a><a href="Services.html">Services</a><a href="contact.html">Contact<a/><a href="about.html">About</a></p>
+	<p><a href="index.html">Home</a><a href="Services.html">Services</a>
+		<a href="contact.html">Contact<a/> 
+		<a href="about.html">About</a>
+		</p>
 </footer>
 
 </html>

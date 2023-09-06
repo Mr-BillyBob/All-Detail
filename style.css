@@ -29,11 +29,10 @@ body, html{
 .topnavlogo{
 	float: right;
 	padding: auto;
-	color: white;
+	
 }
 .topnavlogo a:hover{
 	background-color: transparent;
-	color: transparent;
 }
 
 .topnav a{
@@ -42,7 +41,7 @@ body, html{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: underline;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 .topnav a:hover{
@@ -58,16 +57,53 @@ body, html{
 }
 
 /*Main Page Logo*/
-.logo {
-	height: 50%;
-	width: 55%;
-	display: block;
-	margin: 15% auto 20%;
-	padding: 0 auto 20px;
-	border-radius: 200px;
-	transform: translate(0, 0); scale: 1.65;
-	box-sizing: border-box;
+.sb{
+	height: 100%;
+	position: relative;
+	transform: translate(0, 0);
+/*	border: 3px solid green;*/
+	margin: 1% auto 5%;
 }
+.sb .logo{
+	height: 85%;
+	width: 85%;
+	display: block;
+	margin: 5% auto 13%;
+	padding: 0 auto 20px;
+	border-radius: 50%;
+/*	box-sizing: border-box;*/
+
+}
+.sb button{
+	height: 8%;
+	width: 170px;
+	font-weight: Bold;
+	border-radius: 45px;
+	color: #010304ff;
+	background: #EEEFEFff;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	bottom: 17%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: none;
+}
+
+.sb button:hover{
+	opacity: .85;
+}
+
+/*.logo {
+	height: 85%;
+	width: 85%;
+	display: block;
+	margin: 5% auto 10%;
+	padding: 0 auto 20px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}*/
 
 /*Slideshow*/
 * {box-sizing:border-box}
@@ -172,7 +208,7 @@ form{
 	background: #F8050D;
 	display: flex;
 	flex-direction: column;
-	padding: 2vw 4vw;
+	padding: 1vw 4vw;
 	width: 90%;
 	max-width: 600px;
 	border-radius: 10px;
@@ -180,7 +216,9 @@ form{
 form h3{
 	color: #EEEFEF;
 	font-weight: 800;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+	font-size: 40px;
+	text-align: center;
 }
 form input, form textarea{
 	border: 0;
@@ -206,19 +244,21 @@ footer{
 	height: 100px;
 	width: 100%;
 	background-color: #F8050D;
-	border-radius: 10px;
+/*	border-radius: 10px;*/
 	margin: 0 0;
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
 }
 footer a{
+	width: 56px;
 	color: #EEEFEF;
 	text-decoration: none;
-	padding: 1px;
-	
-	text-align: center;
-	display: block;
-	transform: translateY(10px) translateX(-45%);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 }
 
@@ -233,4 +273,3 @@ footer	a:hover{
 .footer, .push{
 	height: 100px;
 }
-h
