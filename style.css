@@ -244,50 +244,41 @@ form button{
 }
 
 /*Footer*/
-.footer{
+.footerc{
 	background-color: white;
 	width: 100%;
-	height: 14%;
-/*	margin: 0 auto;*/
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .pglinks, .smlinks, .bzinfo{
 	width: 25%;
 	height: 14%;
-	margin-left: 10%;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 5%;
 }
-.pglinks:after, .smlinks:after, .bzinfo:after{
+/*.pglinks:after, .smlinks:after, .bzinfo:after{
 	content: '';
 	display: table;
 	clear: both;
-}
+}*/
 .pglinks{
-	width: 17%;
-	float: left;
-	position: relative;
-	top: 17%;
 	text-align: center;
-	right: -3%;
+	font-size: 20px;
 }
 .smlinks{
-	width: 32%;
-	float: left;
-	position: relative;
-	top: 27%;
-	left: 3%;
+	margin-top: 3%;
 }
 .bzinfo{
-	width: 20%;
-	float: left;
-	position: relative;
-	top: 20%;
-	font-size: 1.3vw;
+	font-size: 20px;
 	text-align: center;
-	right: 10%;
 }
 
 .pglinks a{
 	color: black;
-	font-size: 1.3vw;
+	font-size: 20px;
 }
 .pglinks a:hover{
 	opacity: .7;
@@ -305,29 +296,30 @@ form button{
 /*Services Page*/
 
 .services{
-/*	background-color: #563738ff;*/
 	height: 400px;
 	width: 100%;
 	margin: 3% auto;
-}
-.services h1{
-	font-size: 25px;
-	text-align: center;
-	color: #EEEFEFff;
-	margin: 0;
-}
-.services img{
-	width: 95%;
-	height: 12px;
-	margin: 2% auto;
-	display: block;
-	border-radius: 10px;
-}
+	}
+	.services h1{
+		font-size: 25px;
+		text-align: center;
+		color: #EEEFEFff;
+		margin: 0;
+	}
+		.services img{
+			width: 95%;
+			height: 12px;
+			margin: 2% auto;
+			display: block;
+			border-radius: 10px;
+		}
+
+/*Top Two boxes*/
+
 .s1{
 	float: left;
 	width: 45%;
 	height: 85%;
-/*	background-color: red;*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -337,50 +329,51 @@ form button{
 	box-sizing: border-box;
 	margin-left: 3%;
 }
-.s1 h3{
-	font-size: 25px;
-	color: #EEEFEFff;
-	text-align: center;
-	margin: 0px 0 15px 0;
-}
-.s1text{
-	font-size: 20px;
-	color: #EEEFEFff;
-	text-align: center;
-}
-.s1text h6{
-	margin: 0;
-	font-size: 10px;
-}
-.s2{
-	float: right;
-	width: 45%;
-	height: 85%;
-/*	background-color: violet;*/
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: top;
-	border: 5px solid #EEEFEFff;
-	border-radius: 10px;
-	box-sizing: border-box;
-	margin-right: 3%;
-}
-.s2 h3{
-	font-size: 25px;
-	color: #EEEFEFff;
-	text-align: center;
-	margin: 0 0 15px 0;
-}
-.s2text{
-	font-size: 20px;
-	color: #EEEFEFff;
-	text-align: center;
-}
+	.s1 h3{
+		font-size: 25px;
+		color: #EEEFEFff;
+		text-align: center;
+		margin: 0px 0 15px 0;
+	}
+		.s1text{
+			font-size: 20px;
+			color: #EEEFEFff;
+			text-align: center;
+		}
+			.s1text h6{
+				margin: 0;
+				font-size: 10px;
+			}
+				.s2{
+					float: right;
+					width: 45%;
+					height: 85%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: center;
+					align-items: top;
+					border: 5px solid #EEEFEFff;
+					border-radius: 10px;
+					box-sizing: border-box;
+					margin-right: 3%;
+				}
+					.s2 h3{
+						font-size: 25px;
+						color: #EEEFEFff;
+						text-align: center;
+						margin: 0 0 15px 0;
+					}
+						.s2text{
+							font-size: 20px;
+							color: #EEEFEFff;
+							text-align: center;
+						}
+
+
+/*Bottom Box*/
 .s3{
 	width: 45%;
 	height: auto;
-/*	background-color: blueviolet;*/
 	margin: 5% auto;
 	display: flex;
 	justify-content: center;
@@ -389,24 +382,177 @@ form button{
 	border-radius: 10px;
 	box-sizing: border-box;
 }
-.s3text p{
-	font-size: 20px;
-	color: #EEEFEFff;
-	text-align: center;
-	width: 300px;
-	margin: 8px 0;
-	
+	.s3text p{
+		font-size: 20px;
+		color: #EEEFEFff;
+		text-align: center;
+		width: 300px;
+		margin: 8px 0;
+		
+	}
+		.s3text h3{
+			font-size: 25px;
+			color: #EEEFEFff;
+			text-align: center;
+			margin: 5px 0;
+		}
+			.s3text h2{
+				font-size: 15px;
+				margin: 0;
+				color: #EEEFEFff;
+				text-align: center;
+				font-style: italic;
+			}
+
+@media screen and (max-width: 600px)
+{
+.services{
+	height: 400px;
+	width: 100%;
+	margin: 3% auto;
+	}
+	.services h1{
+		font-size: 20px;
+		text-align: center;
+		color: #EEEFEFff;
+		margin: 0;
+	}
+		.services img{
+			width: 95%;
+			height: 12px;
+			margin: 2% auto;
+			display: block;
+			border-radius: 10px;
+		}
+
+/*Top Two boxes*/
+
+.s1{
+	float: left;
+	width: 45%;
+	height: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	border: 5px solid #EEEFEFff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-left: 3%;
 }
-.s3text h3{
-	font-size: 25px;
-	color: #EEEFEFff;
-	text-align: center;
-	margin: 5px 0;
+	.s1 h3{
+		font-size: 20px;
+		color: #EEEFEFff;
+		text-align: center;
+		margin: 0px 0 15px 0;
+	}
+		.s1text{
+			font-size: 15px;
+			color: #EEEFEFff;
+			text-align: center;
+		}
+			.s1text h6{
+				margin: 0;
+				font-size: 5px;
+			}
+				.s2{
+					float: right;
+					width: 45%;
+					height: 85%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: center;
+					align-items: top;
+					border: 5px solid #EEEFEFff;
+					border-radius: 10px;
+					box-sizing: border-box;
+					margin-right: 3%;
+				}
+					.s2 h3{
+						font-size: 20px;
+						color: #EEEFEFff;
+						text-align: center;
+						margin: 0 0 15px 0;
+					}
+						.s2text{
+							font-size: 15px;
+							color: #EEEFEFff;
+							text-align: center;
+						}
+
+
+/*Bottom Box*/
+.s3{
+	width: 60%;
+	height: auto;
+	margin: 5% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid #EEEFEFff;
+	border-radius: 10px;
+	box-sizing: border-box;
 }
-.s3text h2{
-	font-size: 15px;
-	margin: 0;
-	color: #EEEFEFff;
+	.s3text p{
+		font-size: 15px;
+		color: #EEEFEFff;
+		text-align: center;
+		width: 300px;
+		margin: 8px 0;
+		
+	}
+		.s3text h3{
+			font-size: 20px;
+			color: #EEEFEFff;
+			text-align: center;
+			margin: 5px 0;
+		}
+			.s3text h2{
+				font-size: 10px;
+				margin: 0;
+				color: #EEEFEFff;
+				text-align: center;
+				font-style: italic;
+			}
+
+/*Footer*/
+.footerc{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pglinks, .smlinks, .bzinfo{
+	float: left;
+	width: 25%;
+	margin-left: 60px;
+	margin-bottom: 25%;
+}
+/*.pglinks:after, .smlinks:after, .bzinfo:after{
+	content: '';
+	display: table;
+	clear: both;
+}*/
+.pglinks{
 	text-align: center;
-	font-style: italic;
+}
+.smlinks{
+	transform: scale(3);
+}
+.bzinfo{
+	font-size: 11px;
+	text-align: center;
+	margin-left: 80px;
+}
+
+.pglinks a{
+	color: black;
+	font-size: 11px;
+}
+.pglinks a:hover{
+	opacity: .7;
+}
+
 }
