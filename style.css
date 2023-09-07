@@ -280,9 +280,11 @@ form button{
 .pglinks a{
 	color: black;
 	font-size: 20px;
+	text-decoration: none;
 }
 .pglinks a:hover{
 	opacity: .7;
+	text-decoration: underline;
 }
 
 
@@ -557,6 +559,7 @@ form button{
 }*/
 .pglinks{
 	text-align: center;
+	text-decoration: none;
 	transform: translateY(-100%);
 }
 .smlinks{
