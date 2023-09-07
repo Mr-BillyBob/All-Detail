@@ -42,73 +42,69 @@ body, html{
 	float: left;
 	color: #F8050D;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1vw 1vw;
 	text-decoration: underline;
-	font-size: 20px;
+	font-size: 1.5vw;
+	margin-left: 1%;
+	margin-top: 1%;
 }
 
 .topnav a:hover{
 	background-color: #ddd;
 	color: black;
 	opacity: .4;
+	border-radius: 5px;
 }
 
 
 .topnav a.active{
 	background-color: #563738;
 	color: white;
+	border-radius: 5px;
 }
 
 /*Main Page Logo*/
 .sb{
-	height: 100%;
+	height: 85%;
 	width: 100%;
 	position: relative;
 	transform: translate(0, 0);
 /*	border: 3px solid green;*/
-	margin: 1% auto 1%;
+	margin: 5% auto 0;
 }
 
 .sb .logo{
-	height: 80%;
-	width: 80%;
+	height: 85%;
+	width: 85%;
 	display: block;
-	margin: 5% auto 13%;
+	margin: 2% auto 13%;
 	padding: 0 auto 20px;
 	border-radius: 5%;
 /*	box-sizing: border-box;*/
 }
 
 .sb button{
-	height: 75px;
-	width: 175px;
+	height: 5.5vw;
+	width: 13.5vw;
 	font-weight: Bold;
-	border-radius: 45px;
-	color: #010304ff;
+	border-radius: 6vw;
 	background: #EEEFEFff;
-	font-size: 25px;
 	cursor: pointer;
-	padding: 15px;
-	position: absolute;
-	bottom: -1%;
+	padding: 1%;
+	position: relative;
+	bottom: -3%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: none;
+	font-size: 2vw;
+	color: #010304ff;
+	bottom: 16vw;
+	border: 3px solid #010304ff;
 }
 
 .sb button:hover{
 	opacity: .85;
 }
-
-/*.logo {
-	height: 85%;
-	width: 85%;
-	display: block;
-	margin: 5% auto 10%;
-	padding: 0 auto 20px;
-	border-radius: 50%;
-	box-sizing: border-box;
-}*/
 
 /*Slideshow*/
 * {box-sizing:border-box}
@@ -117,7 +113,7 @@ body, html{
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Hide the images by default */
@@ -270,7 +266,7 @@ form button{
 	position: relative;
 	top: 17%;
 	text-align: center;
-	right: -11%;
+	right: -3%;
 }
 .smlinks{
 	width: 32%;
@@ -284,14 +280,14 @@ form button{
 	float: left;
 	position: relative;
 	top: 40%;
-	font-size: 20px;
+	font-size: 1.3vw;
 	text-align: center;
-	right: 15%;
+	right: 10%;
 }
 
 .pglinks a{
 	color: black;
-	font-size: 20px;
+	font-size: 1.3vw;
 }
 .pglinks a:hover{
 	opacity: .7;
