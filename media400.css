@@ -1,0 +1,192 @@
+@media screen and (max-width: 400px)
+{
+		.sb{
+	height: 40%;
+	width: 100%;
+	position: relative;
+	transform: translate(0, 0);
+/*	border: 3px solid green;*/
+	margin: 5% auto 0;
+}
+.sb button{
+	height: 6.5vw;
+	width: 14.5vw;
+}
+.logo{
+	height: 70%;
+	width: 92%;
+	display: block;
+	margin: 2% auto 13%;
+	padding: 0 auto 20px;
+	border-radius: 5%;
+/*	box-sizing: border-box;*/
+}
+form h3{
+	color: #EEEFEF;
+	font-weight: 800;
+	margin-bottom: 25px;
+	font-size: 30px;
+	text-align: center;
+}
+
+/*Services*/
+.services{
+height: 50%;
+width: 100%;
+margin: 7% auto;
+}
+
+.services h1{
+font-size: 20px;
+text-align: center;
+width: 75%;
+/*		color: #EEEFEFff;*/
+/*		margin: 0;*/
+}
+
+.services img{
+width: 95%;
+height: 12px;
+margin: 2% auto;
+display: block;
+border-radius: 10px;
+}
+
+/*Top Two boxes*/
+
+.s1{
+	float: left;
+	width: 45%;
+	height: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+/*	border: 5px solid #EEEFEFff;*/
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-left: 3%;
+}
+	.s1 h3{
+		font-size: 20px;
+/*		color: #EEEFEFff;*/
+		text-align: center;
+		margin: 0px 0 15px 0;
+	}
+		.s1text{
+			font-size: 15px;
+/*			color: #EEEFEFff;*/
+			text-align: center;
+		}
+			.s1text h6{
+				margin: 0;
+				font-size: 8px;
+			}
+				.s2{
+					float: right;
+					width: 45%;
+					height: 85%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: center;
+					align-items: top;
+/*					border: 5px solid #EEEFEFff;*/
+					border-radius: 10px;
+					box-sizing: border-box;
+					margin-right: 3%;
+				}
+					.s2 h3{
+						font-size: 20px;
+/*						color: #EEEFEFff;*/
+						text-align: center;
+						margin: 0 0 15px 0;
+					}
+						.s2text{
+							font-size: 15px;
+/*							color: #EEEFEFff;*/
+							text-align: center;
+						}
+
+
+/*Bottom Box*/
+.s3{
+	width: 70%;
+	height: auto;
+	margin: 5% auto 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	border: 5px solid #EEEFEFff;*/
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+	.s3text p{
+		font-size: 15px;
+/*		color: #EEEFEFff;*/
+		text-align: center;
+		width: 300px;
+		margin: 8px 0;
+		
+	}
+		.s3text h3{
+			font-size: 20px;
+/*			color: #EEEFEFff;*/
+			text-align: center;
+			margin: 5px 0;
+		}
+			.s3text h2{
+				font-size: 10px;
+				margin: 0;
+/*				color: #EEEFEFff;*/
+				text-align: center;
+				font-style: italic;
+			}
+
+/*Footer*/
+footer{
+
+}
+.footerc{
+/*	background-color: white;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.pglinks, .smlinks, .bzinfo{
+	float: left;
+	width: 25%;
+	margin: 0 5px;
+	margin-bottom: 25%;
+}
+/*.pglinks:after, .smlinks:after, .bzinfo:after{
+	content: '';
+	display: table;
+	clear: both;
+}*/
+.pglinks{
+	text-align: center;
+	margin-top: -1%;
+}
+.smlinks{
+	transform:  scale(3) translateY(150%);
+}
+.bzinfo{
+	font-size: 11px;
+	text-align: center;
+	transform: translateX(-50px);
+	margin-top: -2%;
+}
+
+.pglinks a{
+/*	color: black;*/
+	font-size: 11px;
+}
+.pglinks a:hover{
+	opacity: .7;
+}
+}
