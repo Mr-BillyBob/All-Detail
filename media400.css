@@ -1,5 +1,14 @@
 @media screen and (max-width: 400px)
 {
+
+.topnava{
+	width: 100%;
+}
+
+.topnavlogo{
+	display: none;
+}
+
 		.sb{
 	height: 40%;
 	width: 100%;
@@ -9,7 +18,7 @@
 	margin: 5% auto 0;
 }
 .sb button{
-	height: 6.5vw;
+	height: 5.5vw;
 	width: 14.5vw;
 }
 .logo{
@@ -110,21 +119,37 @@ border-radius: 10px;
 
 /*Bottom Box*/
 .s3{
-	width: 70%;
+	width: 80%;
 	height: auto;
 	margin: 5% auto 10%;
-	display: flex;
+/*	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 /*	border: 5px solid #EEEFEFff;*/
 	border-radius: 10px;
 	box-sizing: border-box;
 }
+
+.s3 h6{
+	font-size: 10px;
+	margin: 0;
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+}
+
+.s3text{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	transform: translateY(-17%);
+}
+
 	.s3text p{
 		font-size: 15px;
 /*		color: #EEEFEFff;*/
 		text-align: center;
-		width: 300px;
+		width: 100%;
 		margin: 8px 0;
 		
 	}
@@ -171,14 +196,15 @@ footer{
 .pglinks{
 	text-align: center;
 	margin-top: -1%;
+	transform: translateX(50%) translateY(-50%);
 }
 .smlinks{
-	transform:  scale(3) translateY(150%);
+	transform:  scale(3) translateY(150%) translateX(10%);
 }
 .bzinfo{
 	font-size: 11px;
 	text-align: center;
-	transform: translateX(-50px);
+	transform: translateX(-50%);
 	margin-top: -2%;
 }
 
@@ -189,4 +215,11 @@ footer{
 .pglinks a:hover{
 	opacity: .7;
 }
+
+.topnavlogo{
+	float: right;
+	padding: auto;
+	
+}
+
 }

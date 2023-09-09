@@ -8,23 +8,25 @@
 	<meta name= "viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" href="Images/Favicon2.png"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media750.css">
 	<link rel="stylesheet" type="text/css" href="media600.css">
 	<link rel="stylesheet" type="text/css" href="media400.css">
 </head>
 
 <!-- Top Navigation Bar -->
-<header>
+
 		<div class="topnav">
-			<a class="active" href="index.html">Home</a>
-			<a href="Services.html">Services</a>
-			<a href="contact.html">Contact</a>
-			<a href="about.html">About</a>
-			<div class="topnavlogo">
-				<a class="topnavlogo" href="index.html"> <img src="Images/Favicon2.png" alt="logo"></a>
+			<div class="topnava">
+				<a class="active" href="index.html">Home</a>
+				<a href="Services.html">Services</a>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About</a>
 			</div>
-			
+			<div class="topnavlogo">
+				<a href="index.html"> <img src="Images/Favicon2.png" alt="logo"></a>
+			</div>
 		</div>
-</header>
+
 
 <body>
 		<div class="wrapper">
@@ -35,13 +37,22 @@
 	</div>
 
 	<div class="container">
-		<form>
+		<form action="https://formsubmit.co/andrew@alldetailwi.com" method="post">
 			<h3>Get in Touch</h3>
-			<input type="text" id="name" placeholder="First Name" requried>
-			<input type="text" id="name" placeholder="Last Name" requried>
-			<input type="text" id="phone" placeholder="Phone Number" requried>
-			<input type="text" id="email" placeholder="Email">
-			<textarea id="message" rows="5" placeholder="Questions or services you're interested in."></textarea>
+			<!-- Honeypot -->
+			<input type="text" name="_honey" style="display: none;">
+
+			<!-- Disable Captcha -->
+			<input type="hidden" name="_captcha" value="false">
+
+			<!-- Success Page -->
+			<input type="hidden" name="_next" value="https://mr-billybob.github.io/All-Detail/success.html">
+
+			<input type="text" id="name" name="Name" placeholder="First Name" required>
+			<input type="text" id="name" name="Last&nbsp;Name" placeholder="Last Name" required>
+			<input type="text" id="phone" name="Email" placeholder="Phone Number">
+			<input type="text" id="email" name="Phone" placeholder="Email" required>
+			<textarea id="message" rows="5" name="comments,&nbsp;questions" placeholder="Questions or services you're interested in."></textarea>
 			<button type="submit">Submit</button>
 		</form>
 	</div>
@@ -62,8 +73,6 @@
 			<a target="blank" href="https://www.facebook.com/profile.php?id=61550735790706"><img style="margin-left: 3%;width: 12%;" src="Images/facebook.png"></a>
 		</div>
 		<div class="bzinfo">
-			400 W Pine St<br>
-			Abbotsford, WI 54405<br>
 			715-255-0548<br>
 			andrew@alldetailwi.com
 		</div>

@@ -24,33 +24,44 @@ body, html{
 	min-height: 100%;
 	margin-bottom: -50px;
 }
+/*header{
+	width: 100%;
+}*/
+
 /*Top Nav Bar*/
 .topnav{
-	background-color: #010304;
-	overflow: hidden;
+width: 100%;
+height: 8%;
+position: sticky;
+top: 0;
+background-color: #010304ff;
+z-index: 5;
 }
 
 .topnavlogo{
 	float: right;
-	padding: auto;
-	
-}
-.topnavlogo a:hover{
-	background-color: transparent;
+	margin-right: 1%;
+	margin-top: 1%;
+	position: sticky;
 }
 
-.topnav a{
+.topnava{
+	width: 50%;
+/*	height: 100%;*/
+	margin: 0;
+}
+
+.topnava a{
 	float: left;
 	color: #F8050D;
-	text-align: center;
+/*	text-align: center;*/
 	padding: 1vw 1vw;
 	text-decoration: underline;
 	font-size: 20px;
 	margin-left: 1%;
-	margin-top: 1%;
 }
 
-.topnav a:hover{
+.topnava a:hover{
 	background-color: #ddd;
 	color: black;
 	opacity: .4;
@@ -58,7 +69,7 @@ body, html{
 }
 
 
-.topnav a.active{
+.topnava a.active{
 	background-color: #563738;
 	color: white;
 	border-radius: 5px;
@@ -257,7 +268,6 @@ form button{
 	width: 25%;
 	height: 14%;
 	float: left;
-	margin-left: 100px;
 	margin-bottom: 5%;
 }
 /*.pglinks:after, .smlinks:after, .bzinfo:after{
@@ -271,6 +281,7 @@ form button{
 }
 .smlinks{
 	margin-top: 3%;
+	text-align: center;
 }
 .bzinfo{
 	font-size: 20px;
@@ -408,9 +419,9 @@ text-align: center;
 width: 45%;
 height: auto;
 margin: 3% auto;
-display: flex;
+/*display: flex;
 justify-content: center;
-align-items: center;
+align-items: center;*/
 border: 5px solid #EEEFEFff;
 border-radius: 10px;
 box-sizing: border-box;
@@ -419,12 +430,26 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+.s3 h6{
+	font-size: 12px;
+	margin: 0;
+	width: 15%;
+	display: inline-block;
+	position: relative;
+}
+
+.s3text{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	transform: translateY(-6%);
+}
+
 .s3text p{
 font-size: 20px;
 color: #010304ff;
 text-align: center;
-width: 300px;
-margin: 8px 0;	
+margin: 8px auto;	
 }
 
 .s3text h3{

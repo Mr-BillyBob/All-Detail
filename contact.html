@@ -6,33 +6,44 @@
 	<title>Its All in the Detail | Contact</title>
 	<link rel="icon" type="image/png" href="Images/Favicon2.png"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media750.css">
 	<link rel="stylesheet" type="text/css" href="media600.css">
 	<link rel="stylesheet" type="text/css" href="media400.css">
 </head>
 
 <!-- Top Navigation Bar -->
-<header>
+
 		<div class="topnav">
-			<a href="index.html">Home</a>
-			<a href="Services.html">Services</a>
-			<a class="active" href="contact.html">Contact</a>
-			<a href="about.html">About</a>
+			<div class="topnava">
+				<a href="index.html">Home</a>
+				<a href="Services.html">Services</a>
+				<a class="active"  href="contact.html">Contact</a>
+				<a href="about.html">About</a>
+			</div>
 			<div class="topnavlogo">
 				<a href="index.html"> <img src="Images/Favicon2.png" alt="logo"></a>
 			</div>
 		</div>
-</header>
 
 <body>
 <div class="wrapper">
 	<div class="container">
-		<form>
+		<form action="https://formsubmit.co/andrew@alldetailwi.com" method="post">
 			<h3>Get in Touch</h3>
-			<input type="text" id="name" placeholder="First Name" requried>
-			<input type="text" id="name" placeholder="Last Name" requried>
-			<input type="text" id="phone" placeholder="Phone Number" requried>
-			<input type="text" id="email" placeholder="Email">
-			<textarea id="message" rows="5" placeholder="Requested Services"></textarea>
+			<!-- Honeypot -->
+			<input type="text" name="_honey" style="display: none;">
+
+			<!-- Disable Captcha -->
+			<input type="hidden" name="_captcha" value="false">
+
+			<!-- Success Page -->
+			<input type="hidden" name="_next" value="https://mr-billybob.github.io/All-Detail/success.html">
+
+			<input type="text" id="name" name="Name" placeholder="First Name" required>
+			<input type="text" id="name" name="Last&nbsp;Name" placeholder="Last Name" required>
+			<input type="text" id="phone" name="Email" placeholder="Phone Number">
+			<input type="text" id="email" name="Phone" placeholder="Email" required>
+			<textarea id="message" rows="5" name="comments,&nbsp;questions" placeholder="Questions or services you're interested in."></textarea>
 			<button type="submit">Submit</button>
 		</form>
 	</div>
@@ -48,14 +59,12 @@
 			<a href="about.html">About</a><br>
 		</div>
 		<div class="smlinks">
-			<a target="blank" href="https://www.youtube.com/watch?v=EmD_xmsYPy8"><img style="margin-left: 3%;width: 12%;" src="Images/instagram.png"></a>
-			<img style="margin-left: 3%;width: 12%;" src="Images/tiktok.png">
-			<img style="margin-left: 3%;width: 12%;" src="Images/youtube2.png">
-			<img style="margin-left: 3%;width: 12%;" src="Images/facebook.png">
+			<a target="blank" href="https://www.instagram.com/itsallinthedetailwi/"><img style="margin-left: 3%;width: 12%;" src="Images/instagram.png"></a>
+			<a target="blank" href="https://www.tiktok.com/@itsallinthedetailwi?is_from_webapp=1&sender_device=pc"><img style="margin-left: 3%;width: 12%;" src="Images/tiktok.png"></a>
+			<a target="blank" href="https://www.youtube.com/channel/UCP1RN46dqulDl4rf5lpmdQA"><img style="margin-left: 3%;width: 12%;" src="Images/youtube2.png"></a>
+			<a target="blank" href="https://www.facebook.com/profile.php?id=61550735790706"><img style="margin-left: 3%;width: 12%;" src="Images/facebook.png"></a>
 		</div>
 		<div class="bzinfo">
-			400 W Pine St<br>
-			Abbotsford, WI 54405<br>
 			715-255-0548<br>
 			andrew@alldetailwi.com
 		</div>

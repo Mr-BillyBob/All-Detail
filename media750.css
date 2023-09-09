@@ -1,4 +1,24 @@
 @media screen and (max-width: 750px)
 {
+.services h1{
+	width: 50%;
+}
+
+.s3 h6{
+	font-size: 10px;
+	margin: 0;
+	width: 20%;
+	display: inline-block;
+	z-index: 1;
+	position: relative;
+}
+
+.s3text{
+	width: 100%;
+	display: inline-block;
+	z-index: 2;
+	position: relative;
+	transform: translateY(-11%);
+}
 
 }
