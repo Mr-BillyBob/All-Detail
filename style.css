@@ -466,3 +466,47 @@ color: #010304ff;
 text-align: center;
 font-style: italic;
 }
+
+.about{
+	height: auto;
+	margin-top: 10%;
+}
+
+.aboutme{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+height: 90%;
+width: 100%;
+}
+
+.abouttxt{
+font-size: 30px;
+color: #F8050Dff;
+margin: 0 5% 0 5%;
+display: inline-block;
+text-align: left;
+}
+
+.aboutimg{
+	position: relative;
+	margin-left: 8%;
+	margin-top: 5%;
+	margin-right: 3%;
+}
+
+.wrapper h1{
+font-size: 40px;
+border: 5px double #F8050Dff;
+color: #F8050Dff;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 10px;
+top: -80px;
+width: 350px;
+border-radius: 15px;
+text-align: center;
+box-sizing: border-box;
+}

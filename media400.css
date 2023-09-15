@@ -222,4 +222,33 @@ footer{
 	
 }
 
+.about{
+	height: auto;
+	margin-top: 15%;
+}
+
+.aboutme{
+height: 90%;
+width: 100%;
+display: inline-block;
+justify-content: left;
+align-items: left;
+}
+
+.abouttxt{
+font-size: 15px;
+}
+
+.aboutimg img{
+	height: 100px;
+	width: 100px;
+	margin-left: 6%;
+}
+.wrapper h1{
+font-size: 20px;
+left: -15px;
+top: -40px;
+width: 170px;
+}
+
 }

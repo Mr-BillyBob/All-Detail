@@ -21,4 +21,32 @@
 	transform: translateY(-11%);
 }
 
+.about{
+	height: 50vw;
+	margin-top: 5%;
+}
+
+.aboutme{
+height: 90%;
+width: 100%;
+
+}
+
+.abouttxt{
+font-size: 20px;
+}
+
+.aboutimg img{
+	height: 150px;
+	width: 150px;
+	margin-top: 5%;
+}
+
+.wrapper h1{
+font-size: 25px;
+left: -30px;
+top: -40px;
+width: 220px;
+}
+
 }
