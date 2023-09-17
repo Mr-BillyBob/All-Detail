@@ -510,3 +510,44 @@ border-radius: 15px;
 text-align: center;
 box-sizing: border-box;
 }
+
+.gallery{
+	height: 742px;
+	width: 80%;
+	margin: 50px auto;
+/*	border: 5px ridge red;*/
+	box-sizing: border-box;
+}
+
+.truck p{
+	color: #EEEFEFff;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	top: -35px;
+}
+
+.truck{
+	height: 350px;
+	width: 100%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.truck img{
+	height: 350px;
+	width: 33%;
+	margin: 5px 5px;
+/*	display: block;*/
+	padding: 1px;
+	float: left;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
